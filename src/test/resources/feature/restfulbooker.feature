@@ -6,7 +6,7 @@ Feature: Creating and Validating Bookings
     Then the booking is created successfully
     Examples:
       | firstname    | lastname   | totalprice | depositpaid | checkin      | checkout     | additionalneeds |
-      | Jim          | Brown      | 111        | true        | 2018-01-01   | 2019-01-01   | Breakfast      |
+      | Jim          | Brown      | 111        | true        | 2023-08-17  | 2023-08-18   | Breakfast      |
 
   Scenario: User validates the correctness of booking XML details
     When the user gets the booking using the id
